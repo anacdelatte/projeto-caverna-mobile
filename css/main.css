@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/fundo.PNG);
+    background-size: cover;
+    filter: blur(0px);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-logo{
+    width: 8rem;
+}
+
+.images{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 5rem;
+}
+
+.title{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+.sub-title{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.site-button-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    color: aliceblue;
+    background-color: #f85826;
+    width: 20rem;
+    height: 1.2rem;
+    border-radius: 15px;
+    text-decoration:none;
+    font-size: 0.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    transition: 0.7s;
+}
+
+.site-button-one:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    color: aliceblue;
+    background-color: #c24924;
+    width: 20rem;
+    height: 1.2rem;
+    font-size: 0.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    transition: 0.7s;
+}
+
+.site-button-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    color: aliceblue;
+    background-color: #262626;
+    width: 20rem;
+    height: 1.2rem;
+    border-radius: 15px;
+    margin-top: 1.3rem;
+    text-decoration:none;
+    font-size: 0.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    transition: 1s;
+}
+
+.site-button-two:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    color: aliceblue;
+    background-color: #333334;
+    width: 20rem;
+    height: 1.2rem;
+    font-size: 0.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    transition: 1s;
+}
+
+.site-button-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    color: aliceblue;
+    background-color: #21204f;
+    width: 20rem;
+    height: 1.2rem;
+    border-radius: 15px;
+    margin-top: 1.3rem;
+    text-decoration:none;
+    font-size: 0.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    transition: 0.7s;
+}
+
+.site-button-three:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    color: aliceblue;
+    background-color: #4E63A6;
+    width: 20rem;
+    height: 1.2rem;
+    font-size: 0.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    transition: 0.7s;
+}
+
+.site-button-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    color: aliceblue;
+    background-color: #0dbe4e;
+    width: 20rem;
+    height: 1.2rem;
+    border-radius: 15px;
+    margin-top: 1.3rem;
+    text-decoration:none;
+    font-size: 0.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    transition: 2s;
+}
+
+.site-button-four:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    color: aliceblue;
+    background-color: #34DD5E;
+    width: 20rem;
+    height: 1.2rem;
+    font-size: 0.8rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    transition: 2s;
+}
